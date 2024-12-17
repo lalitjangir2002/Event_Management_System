@@ -1,0 +1,112 @@
+
+.textt {
+  color: black;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: sans-serif;
+  background-color: rgba(255, 217, 204, 0.1);
+  padding: 10px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Description box */
+.content{
+  background-color: rgba(248, 249, 250, 0.5);
+  color: black;
+  padding: 20px;
+  margin: 20px 100px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.main-button {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.main-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Content box headers (Participate/Host an Event) */
+.content-box-header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: x-large;
+  color: white;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  border-radius: 40px;
+}
+
+/* Button for participate/host events */
+.second-button {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+/* Hover effect for second button */
+.second-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .textt {
+      font-size: 40px;
+  }
+
+  .content-box {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 18px;
+  }
+
+  .main-button, .second-button {
+      width: 180px;
+      height: 45px;
+  }
+
+  .content-box-header {
+      font-size: large;
+  }
+}
+
+@media (max-width: 480px) {
+  .textt {
+      font-size: 30px;
+  }
+
+  .content-box {
+      font-size: 16px;
+  }
+
+  .main-button, .second-button {
+      width: 150px;
+      height: 40px;
+  }
+}
